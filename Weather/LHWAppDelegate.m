@@ -5,7 +5,8 @@
 //  Created by Steven Masuch on 2014-07-30.
 //  Copyright (c) 2014 Lighthouse Labs. All rights reserved.
 //
-
+#import "DetailedViewController.h"
+#import "City.h"
 #import "LHWAppDelegate.h"
 
 @implementation LHWAppDelegate
@@ -16,6 +17,7 @@
     
     // Your code goes here
     // Don't forget to assign the window a rootViewController
+    
     
     [self.window makeKeyAndVisible];
     return YES;
