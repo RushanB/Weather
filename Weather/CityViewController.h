@@ -10,6 +10,6 @@
 
 @interface CityViewController : UIViewController
 
-@property (nonatomic) City *city;
+@property (nonatomic, strong) City *city;
 
 @end
