@@ -11,10 +11,10 @@
 
 @implementation City
 
--(instancetype)initWithCityName:(NSString *)city andWithCountryName:(NSString *)country andWithPrecipitation:(int)precipitation andWithWeather:(NSString *)weather andwithTemperature:(int)temperature andWithTime:(NSDate *)time andWithImage:(UIImage *)icon{
+-(instancetype)initWithCityName:(NSString *)currentCity andWithCountryName:(NSString *)currentCountry andWithPrecipitation:(int)precipitation andWithWeather:(NSString *)weather andwithTemperature:(int)temperature andWithTime:(NSDate *)time andWithImage:(UIImage *)icon{
     if (self = [super init]){
-        _city = city;
-        _country = country;
+        _currentCity = currentCity;
+        _currentCountry = currentCountry;
         _precipitation = precipitation;
         _weather = weather;
         _temperature = temperature;

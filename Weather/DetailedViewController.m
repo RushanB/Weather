@@ -8,6 +8,20 @@
 
 #import "DetailedViewController.h"
 
+
+@interface DetailedViewController()
+
+
+@end
+
 @implementation DetailedViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad]; //Additional setup afetr loading view
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning]; //Dispose of any resources that can be recreated
+}
 
 @end

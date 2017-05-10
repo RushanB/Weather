@@ -18,6 +18,12 @@
     // Your code goes here
     // Don't forget to assign the window a rootViewController
     
+    UITabBarController *tabBar = [[UITabBarController alloc] init];
+    self.window.rootViewController = tabBar;
+    
+    City *vancouver = [[City alloc] initWithCityName:@"Vancouver" andWithCountryName:@"Canada"andWithPrecipitation:40 andWithWeather:@"Sunny" andwithTemperature:19 andWithTime:[NSDate new] andWithImage:[UIImage imageNamed:@"Sunny.png"]];
+    
+    
     
     [self.window makeKeyAndVisible];
     return YES;
